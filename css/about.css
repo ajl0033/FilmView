@@ -18,13 +18,31 @@ p {
     margin-bottom: 10px;
 }
 
+.head-background {
+    background: rgb(89, 89, 204);
+}
+
+.title-text {
+    font-family: Georgia;
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+}
+
+.subtitle-text {
+    margin-left: 230px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+}
+
 .icon {
     margin-left: -8px;
     margin-right: -8px;
-    margin-top: -3px;
+    margin-top: -14px;
     margin-bottom: -8px;
     border: 2px solid rgb(0, 0, 0);
-    height: 30px; 
+    height: 30px;
     width: 30px;
 }
 
@@ -34,14 +52,12 @@ img {
 }
 
 .column {
-    float: left;
-    margin-right: 20px;
     margin: 10px;
     width: 23%;
-    background: rgba(47, 147, 177, 0.63);
 }
 
 .card {
     box-shadow: 15px 20px 20px -2px #a0939386;
     padding: 5px 15px 15px 15px;
+    height: 320px;
 }
