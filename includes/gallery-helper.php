@@ -32,7 +32,7 @@ if (isset($_POST['gallery-submit'])) {
         $new_name = uniqid('',true).".".$ext;
         $destination = '../games/'.$new_name;
 
-        $sql = "INSTERT INTO games (title, descript, picpath) VALUES (?,?,?)";
+        $sql = "INSERT INTO games (title, descript, picpath) VALUES (?,?,?)";
         $stmt = mysqli_stmt_init($conn);
 
         if (!mysqli_stmt_prepare($stmt, $sql)) {
