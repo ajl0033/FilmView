@@ -1,9 +1,11 @@
 <?php
+require 'includes/dbhandler.php';
 require 'includes/header.php';
 ?>
 
 <main>
 <link rel="stylesheet" href="css/gallery.css">
+<link rel="stylesheet" href="css/reviews.css">
    <h1>Gallery</h1>
    <div class="gallery-container">
         <?php
@@ -18,7 +20,7 @@ require 'includes/header.php';
             $result = mysqli_stmt_get_result($stmt);
             while ($row = mysqli_fetch_assoc($result)) {
                 echo '<div class="card">
-                    <a href="#">
+                    <a href="review.php?id='.$row['pid'].'">
                         <img src="games/'.$row["picpath"].'">
                         <h3>'.$row["title"].'</h3>
                         <p>'.$row["descript"].'</p>
