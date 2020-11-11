@@ -33,7 +33,7 @@ if(isset($_POST['s3-submit'])){
             'ACL'=>'public-read'
         ]);
 
-        echo 'Success? Photo URL: '.$result->get('ObjectURL');
+        echo 'Success! Photo URL: '.$result->get('ObjectURL');
 
     } catch (Aws\S3\Exception\S3Exception $e) {
         die('Error uploading file: '.$e->getMessage());
