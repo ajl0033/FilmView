@@ -11,7 +11,7 @@ require 'includes/header.php'
             <button> <img class="icon" src="./images/Twitter.JPG" /> </button>
             <button> <img class="icon" src="./images/Instagram.JPG" /> </button>
             <h1>About Us</h1>
-            <p class="subtitle-text">Meet the people that make it all happen...</p>
+            <p class="subtitle-text">Meet the heroes that make it all happen...</p>
             <br />
         </div>
     </div>
